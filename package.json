@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-web-server",
+  "version": "1.0.0",
+  "description": "Proyecto de Web Server para NoseJS",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Monse",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "env-var": "^7.5.0",
+    "express": "^5.1.0"
+  }
+}
